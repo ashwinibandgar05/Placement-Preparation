@@ -14,7 +14,7 @@ public class LogicalOperator {
         }else{
             System.out.println("False");
         }
-        if(!a){
+        if(!b){
             System.out.println("True");}
         else{
             System.out.println("False");   } 
