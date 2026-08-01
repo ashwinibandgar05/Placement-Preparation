@@ -14,8 +14,8 @@ public class MarkPercentage {
         int s4=sc.nextInt();
         int total=s1+s2+s3+s4;
 
-        int percentage=(total*100)/500;
-        System.out.print("Merks Percentage obtained In exam:" +percentage+" %");
+        float percentage=(total/400.0f)*100;
+        System.out.print("Marks Percentage obtained In exam:" +percentage+" %");
 
 
     }
